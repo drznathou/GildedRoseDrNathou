@@ -1,4 +1,4 @@
-﻿namespace csharpcore
+﻿namespace Model.GildedRoseDrNathou.Core
 {
     public class Item
     {
