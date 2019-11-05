@@ -8,16 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="GildedRoseDrNathou.Console\**" />
-    <Compile Remove="GildedRoseDrNathou.iOS\**" />
-    <EmbeddedResource Remove="GildedRoseDrNathou.Console\**" />
-    <EmbeddedResource Remove="GildedRoseDrNathou.iOS\**" />
-    <None Remove="GildedRoseDrNathou.Console\**" />
-    <None Remove="GildedRoseDrNathou.iOS\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="ApprovalTests" Version="4.2.0" />
+    <PackageReference Include="Autofac" Version="4.9.4" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
     <PackageReference Include="xunit" Version="2.3.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
