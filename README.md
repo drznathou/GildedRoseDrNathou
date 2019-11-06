@@ -12,6 +12,7 @@ In my solution, I divided the solution in 3 projects but many more target platef
 - A Core library in .NetCore which are responsible for the business logic and the data access.
 - A Console Target project
 - A xUnit Target test project
+
 Any target project relies on the Core project. They need to have the autofac nugget installed [autofac repo](
 https://github.com/autofac/Autofac). 
 
